@@ -1,0 +1,49 @@
+.navbar a{
+    color: white;
+}
+.image{
+    height: 600px;
+background-image: url("../images/accueil2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.servi{
+    border-radius: 10%;
+    background: white;
+}
+.servi button{
+  width: 100px;
+  text-decoration: none;
+}
+.colo{
+  background: #2C1F91;
+}
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .carousel-item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+
+.tend{
+  background: #45EBBE;
+}
+.prop{
+  background: #45EBBE; 
+}
