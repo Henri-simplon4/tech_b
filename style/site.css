@@ -64,3 +64,13 @@ text-decoration: none;
 .proto{
   background: #5FEABE;
 }
+.prod{
+  background: rgb(185, 178, 178);
+}
+.servi:hover{
+  background: #8fd80991;
+  column-rule-color: #5FEABE;
+}
+.creat{
+  background: #c4eee1;
+}
