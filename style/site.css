@@ -18,6 +18,13 @@ background-size: cover;
 .colo{
   background: #2C1F91;
 }
+.but button{
+  width: 100px;
+  text-align: center;
+}
+.but a{
+  text-decoration: none;
+}
 @-webkit-keyframes zoom {
   from {
     -webkit-transform: scale(1, 1);
@@ -46,4 +53,14 @@ background-size: cover;
 }
 .prop{
   background: #45EBBE; 
+}
+footer{
+  background: black;
+  color: white;
+}
+.buto a{
+text-decoration: none;
+}
+.proto{
+  background: #5FEABE;
 }
